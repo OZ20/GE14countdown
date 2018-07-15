@@ -1,0 +1,341 @@
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frame_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="azfamily.ge14countdown.fragment.voting"
+    android:fillViewport="true">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <LinearLayout
+        android:id="@+id/main_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffff"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:visibility="visible">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="15dp"
+                android:layout_weight="1"
+                android:alpha="20"
+                app:cardBackgroundColor="@color/fui_bgGoogle"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="5dp">
+
+                <TextView
+                    android:id="@+id/tv_lwith"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:layout_marginBottom="15dp"
+                    android:layout_marginTop="15dp"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:text="@string/login_dulu" />
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                android:alpha="20"
+                app:cardBackgroundColor="@color/fui_bgGoogle"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:id="@+id/l_alogin"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:visibility="gone">
+
+                        <ImageView
+                            android:id="@+id/iv_profile"
+                            android:layout_width="120dp"
+                            android:layout_height="120dp"
+                            android:layout_alignParentStart="true"
+                            android:layout_alignParentTop="true"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginStart="32dp"
+                            android:layout_marginTop="10dp"
+                            android:layout_weight="1"
+                            android:paddingBottom="10dp"
+                            android:src="@drawable/com_facebook_auth_dialog_cancel_background"
+                            android:visibility="gone" />
+
+                        <TextView
+                            android:id="@+id/tv_name"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_above="@+id/b_signout"
+                            android:layout_alignStart="@+id/b_signout"
+                            android:layout_weight="1"
+                            android:visibility="gone" />
+
+                        <ImageButton
+                            android:id="@+id/b_signout"
+                            style='"?android:attr/borderlessButtonStyle"'
+                            android:layout_width="80dp"
+                            android:layout_height="50dp"
+                            android:layout_alignBottom="@+id/iv_profile"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="28dp"
+                            android:layout_marginStart="33dp"
+                            android:layout_toEndOf="@+id/iv_profile"
+                            android:layout_weight="1"
+                            android:adjustViewBounds="true"
+                            android:background="?attr/selectableItemBackground"
+                            android:gravity="center"
+                            android:scaleType="fitCenter"
+                            android:src="@drawable/exit1_2"
+                            android:text="@string/signout"
+                            android:textAllCaps="false"
+                            android:textSize="12sp"
+                            android:typeface="normal"
+                            android:visibility="gone" />
+                    </RelativeLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:gravity="center_horizontal"
+                        android:orientation="horizontal">
+
+                        <ImageButton
+                            android:id="@+id/b_google"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="10dp"
+                            android:adjustViewBounds="true"
+                            android:background="?attr/selectableItemBackground"
+                            android:elevation="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/google"
+                            android:text="@string/google"
+                            android:visibility="visible" />
+
+                        <ImageButton
+                            android:id="@+id/b_facebook2"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="10dp"
+                            android:adjustViewBounds="true"
+                            android:elevation="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/facebook"
+                            android:text="Button"
+                            android:visibility="visible"
+                            android:background="?attr/selectableItemBackground"/>
+
+                        <ImageButton
+                            android:id="@+id/b_twitter2"
+                            android:layout_width="60dp"
+                            android:layout_height="wrap_content"
+                            android:layout_marginBottom="10dp"
+                            android:layout_marginLeft="8dp"
+                            android:layout_marginRight="8dp"
+                            android:layout_marginTop="10dp"
+                            android:adjustViewBounds="true"
+                            android:elevation="5dp"
+                            android:scaleType="centerCrop"
+                            android:src="@drawable/twitter"
+                            android:text="Button"
+                            android:visibility="visible"
+                            android:background="?attr/selectableItemBackground"/>
+
+                        <com.facebook.login.widget.LoginButton
+                            android:id="@+id/b_facebook"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="6dp"
+                            android:layout_weight="1"
+                            android:text="@string/facebook"
+                            android:visibility="gone" />
+
+                        <com.twitter.sdk.android.core.identity.TwitterLoginButton
+                            android:id="@+id/button_twitter_login"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_horizontal"
+                            android:layout_margin="6dp"
+                            android:layout_weight="1"
+                            android:text="@string/twitter"
+                            android:visibility="gone" />
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </android.support.v7.widget.CardView>
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="2dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginRight="12dp"
+            android:background="@color/tw__light_gray" />
+
+
+        <LinearLayout
+            android:id="@+id/layout_undi"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <android.support.v7.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:alpha="20"
+                app:cardBackgroundColor="@color/fui_bgGoogle"
+                app:cardCornerRadius="1dp"
+                app:cardElevation="5dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/textView"
+                        style="@android:style/Widget.CompoundButton.CheckBox"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:soundEffectsEnabled="false"
+                        android:text="@string/pilihan"
+                        android:textAllCaps="true"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <RadioGroup
+                        android:id="@+id/r_undi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_gravity="center"
+                        android:layout_marginTop="10dp"
+                        android:orientation="vertical">
+
+                        <RadioButton
+                            android:id="@+id/r_1"
+                            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                            android:layout_width="200dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonshape2"
+                            android:checked="false"
+                            android:elevation="5dp"
+                            android:fontFamily="@font/font1"
+                            android:isScrollContainer="false"
+                            android:pointerIcon="hand"
+                            android:soundEffectsEnabled="false"
+                            android:text="@string/bn"
+                            android:textAllCaps="true"
+                            android:textAppearance="@style/TextAppearance.AppCompat"
+                            android:textColor="@color/colorPrimaryDark"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/r_2"
+                            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                            android:layout_width="200dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonshape2"
+                            android:elevation="5dp"
+                            android:fontFamily="@font/font1"
+                            android:soundEffectsEnabled="false"
+                            android:text="@string/pakatan"
+                            android:textAllCaps="true"
+                            android:textColor="@android:color/holo_red_dark"
+                            android:textSize="18sp" />
+
+                        <RadioButton
+                            android:id="@+id/r_3"
+                            style="@style/Widget.AppCompat.CompoundButton.CheckBox"
+                            android:layout_width="200dp"
+                            android:layout_height="40dp"
+                            android:layout_gravity="center"
+                            android:layout_marginBottom="10dp"
+                            android:background="@drawable/buttonshape2"
+                            android:elevation="5dp"
+                            android:fontFamily="@font/font1"
+                            android:soundEffectsEnabled="false"
+                            android:text="@string/lain"
+                            android:textAllCaps="true"
+                            android:textSize="18sp" />
+                    </RadioGroup>
+
+                    <Button
+                        android:id="@+id/b_undi"
+                        android:layout_width="80dp"
+                        android:layout_height="80dp"
+                        android:layout_gravity="center"
+                        android:layout_marginBottom="20dp"
+                        android:background="@drawable/undi"
+                        android:hapticFeedbackEnabled="true"
+                        android:visibility="visible"
+                        />
+                </LinearLayout>
+            </android.support.v7.widget.CardView>
+
+            <com.google.android.gms.ads.AdView
+                android:id="@+id/adView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                app:adSize="LARGE_BANNER"
+                app:adUnitId="@string/ad_unitid" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</android.support.v4.widget.NestedScrollView>

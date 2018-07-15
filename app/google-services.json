@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "817508286633",
+    "firebase_url": "https://pru14-615d2.firebaseio.com",
+    "project_id": "pru14-615d2",
+    "storage_bucket": "pru14-615d2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:817508286633:android:21108838eef3b71d",
+        "android_client_info": {
+          "package_name": "azfamily.ge14countdown"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "817508286633-k9vvqifpnqi19kna6dulvutvg394somv.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "azfamily.ge14countdown",
+            "certificate_hash": "a03c6edb126aa4ec7fe385f0d6337e89b21d0d31"
+          }
+        },
+        {
+          "client_id": "817508286633-9p1mvc41chf62jimm9tjnln1jdo1f4k4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD_tzqayIUwYktS98VKhHDhEBoejMM-Vxc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "817508286633-9p1mvc41chf62jimm9tjnln1jdo1f4k4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

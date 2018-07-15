@@ -1,0 +1,65 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 27
+    defaultConfig {
+        applicationId "azfamily.ge14countdown"
+        minSdkVersion 20
+        targetSdkVersion 27
+        versionCode 6
+        versionName '1.6'
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+        multiDexEnabled true
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+
+        }
+        debug {
+            minifyEnabled false
+        }
+    }
+    productFlavors {
+    }
+}
+
+dependencies {
+    implementation fileTree(include: ['*.jar'], dir: 'libs')
+    implementation 'com.android.support:support-v4:27.1.1'
+    implementation 'com.android.support:appcompat-v7:27.1.1'
+    implementation 'com.android.support:customtabs:27.1.1'
+    implementation 'com.android.support:design:27.1.1'
+    implementation 'com.android.support.constraint:constraint-layout:1.1.0'
+    testImplementation 'junit:junit:4.12'
+    androidTestImplementation 'com.android.support.test:runner:1.0.1'
+    androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
+    implementation 'com.android.support:cardview-v7:27.1.1'
+    compile 'com.airbnb.android:lottie:2.5.1'
+    compile 'com.github.recruit-lifestyle:WaveSwipeRefreshLayout:1.6'
+    /***** Social login *****/
+    /***** Chart *****/
+    implementation 'com.github.PhilJay:MPAndroidChart:v3.0.3'
+    /**** VOlley *****/
+    // volley http library
+    implementation 'com.android.volley:volley:1.0.0'
+    implementation 'com.google.code.gson:gson:2.8.2'
+    /**** Firebase ****/
+    compile 'com.google.firebase:firebase-core:15.0.0'
+    compile 'com.google.android.gms:play-services-auth:15.0.0'
+    compile 'com.google.firebase:firebase-ads:15.0.0'
+    compile 'com.firebaseui:firebase-ui-auth:3.2.2'
+    compile 'com.google.firebase:firebase-auth:15.0.0'
+    // Required only if Facebook login support is required
+    compile 'com.facebook.android:facebook-android-sdk:4.27.0'
+    implementation 'com.facebook.android:facebook-login:[4,5)'
+    // Required only if Twitter login support is required
+    compile('com.twitter.sdk.android:twitter-core:3.0.0@aar') { transitive = true }
+    // glide //
+    implementation 'com.github.bumptech.glide:glide:4.7.1'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.7.1'
+    compile 'com.aurelhubert:ahbottomnavigation:2.1.0'
+}
+
+apply plugin: 'com.google.gms.google-services'

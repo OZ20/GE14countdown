@@ -1,0 +1,118 @@
+<resources>
+    <string name="app_name">PRU14</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="bn">Barisan Nasional</string>
+    <string name="pakatan">Pakatan Harapan</string>
+    <string name="lain">Lain-Lain</string>
+    <string name="pilihan">Pilihan Anda</string>
+
+    <!-- Facebook application ID and custom URL scheme (app ID prefixed by 'fb'). -->
+    <string name="facebook_application_id">428041900989142</string>
+    <string name="fb_login_protocol_scheme">fb428041900989142</string>
+    <!-- Twitter consumer key and secret -->
+    <string name="twitter_consumer_key">kkm6xq60hBlzUKPpfIxy912dH</string>
+    <string name="twitter_consumer_secret">ymZOgd5EP1rOqX1HbouOwganowzSlGthZKUTke8orkcnLO5Wr7</string>
+
+    <!-- FIREBASE -->
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+    <string name="firebase_user_management">Firebase User Management</string>
+
+    <string name="google_status_fmt">Google User: %s</string>
+    <string name="google_title_text">Google Sign In</string>
+
+    <string name="facebook_status_fmt">Facebook User: %s</string>
+    <string name="facebook_title_text">Facebook Login</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="phone_title_text">Phone Number</string>
+
+    <string name="twitter_status_fmt">Twitter User: %s</string>
+    <string name="twitter_title_text">Twitter Login</string>
+
+    <string name="firebaseui_status_fmt">Firebase User: %s</string>
+    <string name="firebaseui_title_text">FirebaseUI Auth</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+
+    <string name="loading">Loading…</string>
+    <string name="signout">Sign Out</string>
+    <string name="nama">Name:  </string>
+
+    <string name="hari">Hari</string>
+    <string name="jam">Jam</string>
+    <string name="minit">Minit</string>
+    <string name="saat">Saat</string>
+    <string name="jumlah">Jumlah Undi: </string>
+    
+    <string name="info">Mengenai Saya </string>
+    <string name="derma">Derma (klik untuk copy)</string>
+    <string name="support">Kongsikan bersama</string>
+    <string name="azdev">Azdev</string>
+    <string name="result">Keputusan langsung</string>
+    <string name="ayatpru"> PRU 14 sedang hangat diperkatakan, apatah lagi undian akan dijalankan dalam beberapa minggu saja lagi
+        Ingin mengetahui pihak manakah yang mungkin akan memenangi PRU 14 kali ini ? Sertai kami dalam mencari majoriti undian secara langsung melalui aplikasi ini.
+        Aplikasi ini memaparkan keputusan secara langsung dan undian boleh dilakukan sekali sahaja. Bagi masa depan Malaysia yang cerah ayuh kita bekerjasama dalam
+        melihat pihak manakah bakal merangkul takhta kerajaan bagi tahun ini. Sebarkan aplikasi ini kepada setiap insan yang anda kenal ! \n\n
+
+        GE 14 is warmly talked, not to mention the polls will be held in just a few weeks
+        Want to know which party might win GE 14 this time? Join us in search of the majority of votes directly through this app.
+        This app displays live results and a vote can be made only once. For a bright Malaysian future we should work together to
+        see which side will embrace the throne of for this year. Share this app to every person you know to make it as effective as possible! \n\n
+
+        जीई 14 गर्मजोशी से बात की जाती है, उल्लेख नहीं है कि चुनाव कुछ हफ्तों में आयोजित किए जाएंगे
+        जानना चाहते हैं कि कौन सी पार्टी इस बार जीई 14 जीत सकती है? सीधे इस एप के माध्यम से अधिकांश वोटों की खोज में शामिल हों
+        यह ऐप लाइव परिणाम प्रदर्शित करता है और वोट केवल एक बार किया जा सकता है। एक उज्ज्वल मलेशियाई भविष्य के लिए हमें साथ मिलकर काम करना चाहिए
+        देखें कि किस साल इस वर्ष के सिंहासन को गले लगाएगा। जितना संभव हो उतना प्रभावी बनाने के लिए आप जानते हैं कि हर व्यक्ति को इस ऐप को साझा करें! \n\n
+
+        通用电气十四届会议热烈讨论，更不用说投票将在短短几周内举行
+        想知道哪一方可能赢得GE 14这次？加入我们直接通过这个应用程序搜索大多数票。
+        此应用程序显示实时结果，并且只能进行一次投票。对于一个光明的马来西亚未来，我们应该共同努力
+        看看今年哪一方将拥抱宝座。分享这个应用程序给你认识的每一个人，使其尽可能有效！
+</string>
+
+    <string name="ayatwhy">Kenapa buat? Sebab sebelum ini banyak yang mengatakan bahawa kebanyakan undian adalah undi hantu dan rigged.\n\n Oleh itu
+        saya ambil inisiatif untuk membina sebuah aplikasi bagi melihat apakah majoriti sebuah pakatan berdasarkan daripada undian rakyat.\n\n
+        Undian ini sudah pastinya tidak tepat 100 peratus , tetapi kita boleh lihat bagaimana besarnya sokongan sesebuah parti berdasarkan undian ini.\n\n
+        Oleh itu , jikalau ramai yang menyertai poll ini, sudah pasti menambahkan efektifnya aplikasi ini , jadi sebarkan aplikasi ini tak kira bangsa , parti atau agama
+        . \n\n
+        Sekian , terima kasih kerana membaca celoteh hambar ini , tak pandai buat ayat satakat ini sahajalah.
+
+    </string>
+
+    <string name="bitcoin">15819SY8QWhRm81LTzqhhKJTjauonBRgMq</string>
+    <string name="ethereum">0xfa8efe230b1c16434045ee3189f9ddd1636a999b</string>
+    <string name="litecoin">LS5GtE3PWx392hZgrEnKZ1WdMHTPySuGoH</string>
+    <string name="paypal">Paypal</string>
+
+    <string name="university">Universiti Teknikal Malaysia Melaka (UTeM)</string>
+    <string name="info2">Programming </string>
+    <string name="why">Kenapa saya bina aplikasi ini?</string>
+
+    <string name="rate">Rate \nAnda suka apps ini? tinggalkan rating di Play Store</string>
+    <string name="share">Kongsi \nHebahkan apps ini!</string>
+    <string name="feedback">Feedback \nBerikan komen anda mengenai apps ini</string>
+
+    <string name="tarikhpru">Pilihan Raya Umum 2018</string>
+
+    <string name="admob_appid">ca-app-pub-4219788455145759~8373980241</string>
+    <string name="ad_unitid">ca-app-pub-4219788455145759/9491620797</string>
+    <string name="ad_unitid2">ca-app-pub-4219788455145759/1313392659</string>
+
+    <!-- FIREBASE -->
+
+    <string name="google">Google</string>
+    <string name="facebook">Facebook</string>
+    <string name="twitter">Twitter</string>
+    <string name="login_dulu">Sila Log Masuk terlebih dahulu sebelum mengundi</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
